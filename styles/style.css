@@ -40,7 +40,7 @@
   width: 730px;
   align-self: center;
   z-index: 50;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
@@ -83,7 +83,6 @@
 
 .two-columns {
   width: 80%;
-  min-width: 784px;
   justify-content: space-between;
   display: flex;
   margin: 100px auto 0;
@@ -101,6 +100,7 @@
 
 .two-columns__main-text {
   width: 80%;
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -145,13 +145,17 @@
   margin: auto;
 }
 
-.table_theme_light {
+.table {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
-  margin: auto;
   justify-content: space-between;
   list-style: none;
+}
+
+.table_theme_light {
+  padding: 0;
+  margin: auto;
 }
 
 .table__cell_theme_light {
@@ -159,19 +163,35 @@
   margin-top: 60px;
 }
 
-.table__heading_theme_light {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
   margin: 0 auto;
 }
 
+/*описано в общем классе table__heading (без модификатора)
+.table__heading_theme_light {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto;
+}*/
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
+
+/*описано в общем классе table__text (без модификатора)
 .table__text_theme_light {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
-}
+  margin: 20px 0 0;
+}*/
 
 .feynman {
   display: flex;
@@ -194,6 +214,7 @@
   font-size: 120px;
   font-weight: 600;
   margin: 100px auto 70px;
+  text-align: center;
 }
 
 .feynman__subtitle {
@@ -221,7 +242,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   margin: 0;
-  padding: 0 0 90px;
+  padding: 0;
 }
 
 .section-title_theme_dark {
@@ -232,6 +253,7 @@
   font-weight: 600;
   text-align: center;
   margin: 90px auto 20px;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -242,15 +264,12 @@
   font-weight: normal;
   text-align: center;
   margin: auto;
+  z-index: 2;
 }
 
 .table_theme_dark {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1100px;
+  padding: 0;
   margin: 0 auto 90px;
-  justify-content: space-between;
-  list-style: none;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -261,19 +280,21 @@
   z-index: 2;
 }
 
+/*описано в общем классе table__heading (без модификатора)
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
   margin: 0 auto;
-}
+}*/
 
+/*описано в общем классе table__text (без модификатора)
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
-}
+}*/
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
