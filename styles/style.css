@@ -44,6 +44,7 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
+  padding: 0;
 }
 
 .header__subtitle {
@@ -55,6 +56,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .header__main-illustration {
@@ -96,6 +99,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  padding: 0;
 }
 
 .two-columns__main-text {
@@ -105,11 +109,12 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0;
+  padding: 0;
 }
 
 .two-columns__paragraph {
   margin: 0;
-  padding-bottom: 30px;
+  padding: 0 0 30px;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -134,6 +139,7 @@
   font-weight: 600;
   text-align: center;
   margin: 100px auto 20px;
+  padding: 0;
 }
 
 .section-subtitle_theme_light {
@@ -143,6 +149,7 @@
   font-weight: normal;
   text-align: center;
   margin: auto;
+  padding: 0;
 }
 
 .table {
@@ -168,6 +175,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: 0 auto;
+  padding: 0;
 }
 
 /*описано в общем классе table__heading (без модификатора)
@@ -183,6 +191,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
+  padding: 0;
 }
 
 /*описано в общем классе table__text (без модификатора)
@@ -215,6 +224,7 @@
   font-weight: 600;
   margin: 100px auto 70px;
   text-align: center;
+  padding: 0;
 }
 
 .feynman__subtitle {
@@ -222,6 +232,7 @@
   font-size: 36px;
   font-weight: normal;
   margin: 0 auto;
+  padding: 0;
 }
 
 .feynman__link {
@@ -233,6 +244,8 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  margin: 0;
+  padding: 0;
 }
 
 .kaufman {
@@ -254,6 +267,7 @@
   text-align: center;
   margin: 90px auto 20px;
   z-index: 2;
+  padding: 0;
 }
 
 .section-subtitle_theme_dark {
@@ -265,6 +279,7 @@
   text-align: center;
   margin: auto;
   z-index: 2;
+  padding: 0;
 }
 
 .table_theme_dark {
@@ -276,8 +291,9 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
   z-index: 2;
+  padding: 0;
 }
 
 /*описано в общем классе table__heading (без модификатора)
@@ -320,8 +336,8 @@
 .footer__columns {
   display: flex;
   width: 90%;
-  padding-top: 60px;
-  margin-bottom: 40px;
+  padding: 60px 0 0;
+  margin: 0 0 40px;
 }
 
 .footer__column_content_copyright {
@@ -329,14 +345,18 @@
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__column_content_info {
   margin: 0 0 0 auto;
+  padding: 0;
 }
 
 .footer__column_content_social {
   margin: 0 0 0 auto;
+  padding: 0;
 }
 
 .footer__author {
@@ -345,6 +365,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
+  padding: 0;
 }
 
 .footer__column-heading {
@@ -352,6 +373,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column-links {
@@ -366,6 +389,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__social-icon {
